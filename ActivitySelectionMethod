@@ -1,3 +1,8 @@
+//First we have to sort the all the activities on the basis of their finish time.
+//Then select the first activity and print it.
+// If the start time of this activity is greater than or equal to the finish time of the previously selected activity then select this activity and print it.
+
+
 class ActivitySelection{
   public static void PrintMaxActivities(int s[], int f[], int n){
     int i, j;
